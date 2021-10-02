@@ -4,7 +4,7 @@ about: beschrijft een nieuwe feature voor de PO
 title: 'Feature: <geef de feature een naam>'
 labels: 'soort: feature'
 assignees: ''
-project: 'Scrumboard'
+projects: 'Scrumboard'
 
 ---
 
