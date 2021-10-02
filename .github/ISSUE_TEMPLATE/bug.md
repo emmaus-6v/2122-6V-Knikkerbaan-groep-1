@@ -17,5 +17,4 @@ assignees: ''
 3. ...
 
 Wijs tenslotte deze taak hiernaast toe aan project 'Scrumboard' 👉🏻
-
 (en verwijder deze laatste twee regels uit de beschrijving)
