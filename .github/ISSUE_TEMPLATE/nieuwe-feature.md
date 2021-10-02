@@ -14,7 +14,7 @@ assignees: ''
 1. Stel hiernaast het project in op 'Scrumboard'. 👉
 2. Bedenk hoe je deze featurein klein afgepaste taken moet verdelen. Maak deze taken vervolgens aan als issues.
 3. Bewerk deze feature en zet alle taken van deze feature in de lijst hieronder. Schrijf na de [ ] een # en kies de taak of vul gewoon het nummer van de taak in.
-4. Wis het stappenplan maar laat de rest staan.
+4. Wis dit stappenplan maar laat de rest staan.
 
 - [ ] 
 - [ ] 
