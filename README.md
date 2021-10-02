@@ -3,14 +3,14 @@
 ## Features
 Beschrijf hier de eigenschappen van jullie knikkerbaan. De eerste paar zijn voorgegeven:
 
-### feature 1:
+### feature 1: Opvangen van knikkers
 De knikkerbaan kan knikkers bovenin correct opvangen. De binnenkomende knikkers worden geteld en een poortje bepaalt of knikkers worden doorrollen of worden tegengehouden.
 
-### feature 2:
+### feature 2: Doorgeven van gegevens aan server
 De knikkerbaan zendt de hoeveelheid getelde knikkers naar een server die de gegevens opslaat in een database. Deze server kan per 'run' (d.w.z. een nieuwe keer aangaan) gegevens bijhouden.
 
 ### feature 3:
-In de browser kan met een URL een widget worden geladen. Deze geeft de knikkerbaan schematisch weer in een frame van 800x400px. De getelde knikkers en duur dat de poort openstaat worden hierin getoond. De duur dat de poort openstaat kan hierin worden veranderd.
+In de browser kan met een URL een widget worden geladen. Deze geeft de knikkerbaan schematisch weer in een frame van 800x400px. De getelde knikkers en duur dat de poort openstaat worden hierin getoond. De duur dat de poort openstaat kan hierin worden veranderd. De knikkerbaan kan deze wachttijd van de server ontvangen en zijn werking erop aanpassen.
 
 ### feature 4:
 <beschrijf hier feature 4>
@@ -31,4 +31,4 @@ In de browser kan met een URL een widget worden geladen. Deze geeft de knikkerba
 - Verdeel taken voor de nieuwe week. **Koppel een taak aan een persoon**.
 
 Bedenk 
-]\
+
