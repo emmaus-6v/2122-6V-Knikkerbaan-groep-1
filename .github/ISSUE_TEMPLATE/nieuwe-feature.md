@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 **Beschrijf hieronder over welke functionaliteit / nieuwe eigenschap deze feature gaat**
-
+<_vul hier je beschrijving in_>
 
 *Voer nu de volgende stappen uit:*
 1. Stel hiernaast het project in op 'Scrumboard'. 👉
