@@ -2,7 +2,7 @@
 
 
 ### Snelle links:
-- [Scrumboard](https://github.com/emmaus-6v/6V-2122-CanSat-groep-1/projects/1)
+- [Scrumboard](https://github.com/emmaus-6v/2122-6V-Knikkerbaan-groep-1/projects/1)
 
 
 
