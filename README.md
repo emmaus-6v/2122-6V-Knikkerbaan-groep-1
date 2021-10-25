@@ -32,7 +32,7 @@ Het widget wordt door de server eenmalig als statisch bestand gestuurd naar een 
 Voor het uittesten van queries kun je in de terminal van GitPod verbinding maken met je database. Doe dit door het volgende commando in te tikken: `sqlite3 database/database.db`.
 
 ## Samenwerken
-Je planning doe je met behulp van [issues](issues) en het [scrumboard](projects/1). Iedere maandag kijk je kort terug op de afgelopen week en maak je een planning voor de week die voor je ligt:
+Je planning doe je met behulp van [issues](/issues) en het [scrumboard](/projects/1). Iedere maandag kijk je kort terug op de afgelopen week en maak je een planning voor de week die voor je ligt:
 - Laat iedereen kort vertellen hoever men gekomen is. Zo krijg je met elkaar een beeld van waar het project staat.
 - Werk de lijsten 'doing' en 'done' bij voor zover die niet _up to date_ is. M.a.w. verplaats afronden taken (of een feature) die niet in 'done' staat alsnog naar die lijst.
 - Scroll door de to-do lijst en werk deze bij. Zijn er nieuwe problemen of nieuwe ideeën die op de to-do lijst moeten komen? Misschien blijkt een taak toch te groot en moet je hier meerdere taken van maken. Werk de taken bij onder 'issues'.
@@ -40,7 +40,7 @@ Je planning doe je met behulp van [issues](issues) en het [scrumboard](projects/
 
 
 ## Handige links
-* [Scrumboard](projects/1) Het planningsbord
+* [Scrumboard](/projects/1) - Het planningsbord
 * [Tinkercad](https://tinkercad.io) - voor het maken van een virtuele Arduino
 * [KhanAcademy](https://khanacademy.org) - voor sql en javascript / p5js-functies
 * [w3schools](https://w3shools.com) - extra javascript informatie
