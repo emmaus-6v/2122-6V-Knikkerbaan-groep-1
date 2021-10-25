@@ -40,7 +40,7 @@ Je planning doe je met behulp van [issues](/issues) en het [scrumboard](/project
 
 
 ## Handige links
-* [Scrumboard](/projects/1) - Het planningsbord
+* [Scrumboard](./projects/1) - Het planningsbord
 * [Tinkercad](https://tinkercad.io) - voor het maken van een virtuele Arduino
 * [KhanAcademy](https://khanacademy.org) - voor sql en javascript / p5js-functies
 * [w3schools](https://w3shools.com) - extra javascript informatie
