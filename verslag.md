@@ -1,5 +1,5 @@
 # Verslag eindopdracht 6V
-### gemaakt door *--leerling1--*, *--leerling2--*, *etc*
+### gemaakt door *Hana Poljak*, *Lisanne Boer*, *Alessandra Bouman*, *Jamie Tang*
 
 ---
 
@@ -35,13 +35,31 @@ In de browser kan met een URL een widget worden geladen. Deze geeft de knikkerba
 
 ## Evaluaties van scrumplanningen:
 
-### week 43
+### week 43 Deze week issues toevoegen voor elke isseu en bugs die we al weten toegvoegen. 
 
-### week 44
+### week 44 Deze week kunnen wij niet veel doen, omdat het volgende week toetsweek is. We willen de taken deels verdelen en bezig zijn met het verslag
 
-### week 45
+### week 45 Deze week is het toetsweek, iedereen heeft het ruk
 
-### week ...
+### week 46
+
+### week 47 
+
+### week 48 
+
+### week 49 
+
+### week 50
+
+### week 51
+
+### week 52 
+
+### week 1
+
+### week 2 
+
+### week 3
 
 
 
