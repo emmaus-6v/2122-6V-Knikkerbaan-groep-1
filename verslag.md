@@ -20,18 +20,20 @@ De knikkerbaan zendt de hoeveelheid getelde knikkers naar een server die de gege
 ### feature 3: Widget wisselt info uit met knikkerbaan
 In de browser kan met een URL een widget worden geladen. Deze geeft de knikkerbaan schematisch weer in een frame van 800x400px. De getelde knikkers en duur dat de poort openstaat worden hierin getoond. De duur dat de poort openstaat kan hierin worden veranderd. De knikkerbaan kan deze wachttijd van de server ontvangen en zijn werking erop aanpassen.
 
-### feature 4:
+### feature 4: Trampoline
 <beschrijf hier feature 4>
 
 
-### feature 5:
+### feature 5: Water/reuzenrad
 <beschrijf hier feature 5>
 
 
-### feature 6:
+### feature 6: Flipperkast 
 <beschrijf hier feature 6>
 
 
+### feature 7: Lift
+<beschrijf hier feature 7>
 
 ## Evaluaties van scrumplanningen:
 
@@ -41,9 +43,9 @@ In de browser kan met een URL een widget worden geladen. Deze geeft de knikkerba
 
 ### week 45 Deze week is het toetsweek, iedereen heeft het ruk
 
-### week 46
+### week 46 -
 
-### week 47 
+### week 47 Deze week gaan we beginnen met het schrijven van de code voor de teller en het poortje.
 
 ### week 48 
 
@@ -64,7 +66,7 @@ In de browser kan met een URL een widget worden geladen. Deze geeft de knikkerba
 
 
 ## Technische verantwoording
-Geef hier bijvoorbeeld de volgene informatie, maar voel je vrij er informatie aan toe te voegen.
+Geef hier bijvoorbeeld de volgende informatie, maar voel je vrij er informatie aan toe te voegen.
 
 De Arduino werkt op de volgende manier:
 
