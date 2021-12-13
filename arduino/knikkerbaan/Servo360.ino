@@ -1,44 +1,34 @@
+  #include "Servo.h"
+
+
 class Servo360 {
   private:
+    Servo Servo_360;
     int pin;
-    bool wasOnderbroken;
-    unsigned long laatstOnderbroken = 0;
-    const int DEBOUNCE_TIME = 10;
-
-    bool isOnderbroken() {
-      return !digitalRead(pin);
-    }
-
-    bool wordtOnderbroken() {
-      return (wasOnderbroken == false && isOnderbroken() == true);
-    }
-
-    int aantal = 0;
+    int gradenGedraaid;
+    bool isDraaiend = false;
 
   public:
-    Teller(int _pin) {
-      pinMode(_pin, INPUT_PULLUP);
+    Rad(){}
+    void begin(int _pin, int _gradenGedraaid,) {
       pin = _pin;
-      wasOnderbroken = false;
+      pinMode(pin, OUTPUT);
+      poortServo.attach(pin);
+      gradenGedraaid = _gradenGedraaid;
+      draai();
     }
 
-    void update() {
-      //Serial.println(digitalRead(pin));
-      if (wordtOnderbroken()) {
-        if (millis() - laatstOnderbroken > DEBOUNCE_TIME) {
-          verhoogAantal();
-          //Serial.println(aantal);
-        } 
-      }
-
-      wasOnderbroken = isOnderbroken();
+    void draai() {
+      poortServo.write(gradenDicht);
+      isOpen = false;
     }
 
-    void verhoogAantal() {
-      aantal++;
+    void open() {
+      poortServo.write(gradenOpen);
+      isOpen = true;
     }
 
-    int getAantal() {
-      return aantal;
+    bool getOpen() {
+      return isOpen;
     }
 };
