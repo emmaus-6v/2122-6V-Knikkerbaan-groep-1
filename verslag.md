@@ -21,19 +21,15 @@ De knikkerbaan zendt de hoeveelheid getelde knikkers naar een server die de gege
 In de browser kan met een URL een widget worden geladen. Deze geeft de knikkerbaan schematisch weer in een frame van 800x400px. De getelde knikkers en duur dat de poort openstaat worden hierin getoond. De duur dat de poort openstaat kan hierin worden veranderd. De knikkerbaan kan deze wachttijd van de server ontvangen en zijn werking erop aanpassen.
 
 ### feature 4: Trampoline
-<beschrijf hier feature 4>
+Deze feature heeft geen code. het is een trapoline gemaakt van houd en elastiekjes die strakgespannen staan. Hierop kan de knikker stuiteren enwordt opgevangen door een andere baan/
 
 
 ### feature 5: Water/reuzenrad
-<beschrijf hier feature 5>
+De knikker wordt tegengehouden door een servo, om de .... seconden opend en sluit de servo, hierdoor gaat elke knikker alleen  het reuzenrad in. Het reuzenrad draaid met de 360 sevro en blijft de hele tijd doordraaien. de nikkers vallen na een tijd uit het reuzentrad en word dan weer opgevangen door een baan. (als we tijd hebben, begint het reuzenrad pas met draaien en gaat de servo pas open als er door een teller een knikker wordt gezien)
 
 
 ### feature 6: Flipperkast 
-<beschrijf hier feature 6>
 
-
-### feature 7: Lift
-<beschrijf hier feature 7>
 
 ## Evaluaties van scrumplanningen:
 
