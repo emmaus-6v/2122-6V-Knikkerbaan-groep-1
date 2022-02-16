@@ -1,21 +1,28 @@
 #include <Arduino_JSON.h>
 
 KnikkerPoort poortBoven = KnikkerPoort();
+KnikkerPoort poortMolen = KnikkerPoort();
+
 WiFiCommunicator wifi = WiFiCommunicator(WIFI_NETWERK, WIFI_WACHTWOORD, SERVER_DOMEINNAAM);
 Teller tellerA = Teller(TELLER_A_PIN);
 
 int serverContactInterval = 15;                // 15 seconden
+int poortMolenTijdOpen = 400;
+int poortMolenTijdDicht = 5000;
 unsigned long tijdVoorContactMetServer = 0;
+unsigned long poortMolenTimer = 5000;
 
 void setup() {
   Serial.begin(9600);
   poortBoven.begin(BOVEN_POORT_PIN, 0, 90);
+  poortMolen.begin(MOLEN_POORT_PIN, 0, 90);
 
   wifi.begin();
 
   wifi.stuurVerzoek("/api/set/nieuwerun", "");
 
   poortBoven.open();
+  poortMolen.dicht();
 }
 
 
@@ -76,5 +83,23 @@ void loop() {
     // en zet nu het poortje weer open:
     poortBoven.open();
   }
+  
+  // Kijk of poortMolen iets moet doen
+  if (millis() > poortMolenTimer) {
+    if (poortMolen.getOpen() == true) {
+      // poortje was blijkbaar open, nu sluiten:
+      poortMolen.sluit();
+      // zet de timer naar nieuw punt in de toekomst
+      poortMolenTimer = millis() + poortMolenTijdDicht;
+    }
+    else {
+      // poortje was blijkbaar dicht, dus nu openen:
+      poortMolen.open();
+      // zet de timer naar nieuw punt in de toekomst
+      poortMolenTimer = millis() + poortMolenTijdOpen;
+    }
+  }
+  
+  
 }
 
