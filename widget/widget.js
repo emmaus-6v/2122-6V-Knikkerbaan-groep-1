@@ -60,6 +60,7 @@ function draw() {
   line(50,295,30,275);
   line(50,335,29,360);
   line(92,295,110,275);
+  
   teller.show();
 }
 
