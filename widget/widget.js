@@ -33,7 +33,7 @@ function setup() {
 function draw() {
   // schrijf hieronder de code van je widget
   // hieronder wordt schematisch een knikkerbaan getekend
-
+  
   // achtergrond: houtkleur, kies gerust iets anders
   background(175, 144, 105);
 
