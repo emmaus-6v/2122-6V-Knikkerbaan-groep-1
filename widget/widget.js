@@ -42,9 +42,27 @@ function draw() {
   strokeWeight(10);
   line(50, 20, 135, 60);
   line(250, 20, 165, 60);
-
+  strokeWeight(4);
+  line(80, 80, 200, 100);
+  line(240, 85, 240, 125);
+  line(240,125,100,150);
+  stroke('brown');
+  line(35,140,90,185);
+  stroke('black');
+  line(240,190,110,250);
+  circle(70,315,60);
+  strokeWeight(6);
+  line(15,315,40,315);
+  line(100,315,125,315);
+  line(70,345,70,370);
+  line(70,285,70,260);
+  line(92,335,110,355);
+  line(50,295,30,275);
+  line(50,335,29,360);
+  line(92,295,110,275);
   teller.show();
 }
+
 
 
 // stuurt een verzoek aan de server dat alle
