@@ -82,7 +82,8 @@ function draw() {
   line(130,445,145,445);
   stroke('blue');
   circle(35,485,3);
-  circle(265,485,3);  
+  circle(265,485,3);   
+
   
   teller.show();
 }
