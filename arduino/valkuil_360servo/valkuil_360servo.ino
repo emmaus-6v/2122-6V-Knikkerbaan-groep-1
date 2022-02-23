@@ -27,6 +27,7 @@ void setup() {
   servoPoort1.write(0);
   servoPoort2.write(180);
   servoMolen.write(90);
+  servoOpvang.write(180); // weet niet zeker of 180 klopt, kan ik later nog checken.
 
   // 360 servo starten
   servo360.write(molenSnelheid);

@@ -1,6 +1,12 @@
 #include <Arduino_JSON.h>
 
 KnikkerPoort poortBoven = KnikkerPoort();
+servo360();
+molen();
+valluik();
+opvangen(); // ik weet niet meer hoe je een klas aanroept, maar vgm moet het zo. not sure though
+
+
 WiFiCommunicator wifi = WiFiCommunicator(WIFI_NETWERK, WIFI_WACHTWOORD, SERVER_DOMEINNAAM);
 Teller tellerA = Teller(TELLER_A_PIN);
 int serverContactInterval = 15;                // 15 seconden
@@ -8,6 +14,7 @@ unsigned long tijdVoorContactMetServer = 0;
 // twelve servo objects can be created on most boards
 Servo servo360;  // create servo object to control a servo
 Servo servoOpvang;
+Servo servoMolen;
 Servo servoPoort1;
 Servo servoPoort2;
 
@@ -41,13 +48,15 @@ void loop() {
   // nu is het tijd om contact te leggen met de server:
   if (millis() > tijdVoorContactMetServer + LEEGLOOP_TIJD) {
     servoPoort1.write(0); // poort 1 gaat dicht als er contact met de server is
-    servoPoort2.write(180); // poort 2 gaat ducht als er contact met de server is
+    servoPoort2.write(180);// poort 2 gaat dicht als er contact met de server is
+    servoMolen.write(90); // poort molen gaat dicht als er contact met de server is
+    servoOpvang.write(180); // als 180 klopt, dan gaat de poort dicht als er contact komt met de server
     
     // contact met server houdt in:
     //   * nieuw totaal aantal knikkers versturen
     //   * instellingen ophalen
 
-/*
+
     // maak de reeks variabelen voor achter de URL:
     String data = "knikkers=";
     data = tellerA.getAantal();
@@ -80,8 +89,7 @@ void loop() {
       Serial.println("FOUT: serverAntwoord kon niet worden verwerkt");
     }
 
-    */
-
+    
     // servercommunicatie is afgerond
     // bepaal nu op welke tijd de knikkerbaan
     // opnieuw contact moet zoeken

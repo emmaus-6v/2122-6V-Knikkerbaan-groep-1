@@ -4,7 +4,7 @@
 #include "Servo.h"
 
 
-class KnikkerPoort {
+class opvangen {
   private:
     Servo poortServo;
     int pin = 9;
