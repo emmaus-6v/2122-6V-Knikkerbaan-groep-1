@@ -1,29 +1,30 @@
 #include <Arduino_JSON.h>
 
 KnikkerPoort poortBoven = KnikkerPoort();
-KnikkerPoort poortMolen = KnikkerPoort();
-
 WiFiCommunicator wifi = WiFiCommunicator(WIFI_NETWERK, WIFI_WACHTWOORD, SERVER_DOMEINNAAM);
-Teller tellerA = Teller(TELLER_A_PIN); 
-// hier moeten de andere twee tellers en de servos komen
-
+Teller tellerA = Teller(TELLER_A_PIN);
 int serverContactInterval = 15;                // 15 seconden
-int poortMolenTijdOpen = 400;
-int poortMolenTijdDicht = 5000;
 unsigned long tijdVoorContactMetServer = 0;
-unsigned long poortMolenTimer = 5000;
+// twelve servo objects can be created on most boards
+Servo servo360;  // create servo object to control a servo
+Servo servoOpvang;
+Servo servoPoort1;
+Servo servoPoort2;
+
+int molenSnelheid = 85;    // variable to store the servo position
+boolean ledIsAan = false;
+unsigned long valluikTimer = 1000;
+unsigned long ledTimer = 100;
 
 void setup() {
   Serial.begin(9600);
   poortBoven.begin(BOVEN_POORT_PIN, 0, 90);
-  poortMolen.begin(MOLEN_POORT_PIN, 0, 90);
 
-  wifi.begin();
+  //wifi.begin();
+  //myservo.attach(12);  // attaches the servo on pin 9 to the servo object
+  //wifi.stuurVerzoek("/api/set/nieuwerun", "");
 
-  wifi.stuurVerzoek("/api/set/nieuwerun", "");
 
-  poortBoven.open();
-  poortMolen.dicht();
 }
 
 
@@ -31,7 +32,6 @@ void loop() {
   // laat de teller detecteren:
   tellerA.update();
 
-  
   // pauzeer de knikkerbaan als het tijd is voor contact met server
   if (millis() > tijdVoorContactMetServer && poortBoven.getOpen()) {
     poortBoven.sluit();
@@ -40,10 +40,14 @@ void loop() {
   // knikkerbaan is leeggelopen, er zijn geen sensors dit iets moeten meten
   // nu is het tijd om contact te leggen met de server:
   if (millis() > tijdVoorContactMetServer + LEEGLOOP_TIJD) {
+    servoPoort1.write(0); // poort 1 gaat dicht als er contact met de server is
+    servoPoort2.write(180); // poort 2 gaat ducht als er contact met de server is
+    
     // contact met server houdt in:
     //   * nieuw totaal aantal knikkers versturen
     //   * instellingen ophalen
 
+/*
     // maak de reeks variabelen voor achter de URL:
     String data = "knikkers=";
     data = tellerA.getAantal();
@@ -57,7 +61,7 @@ void loop() {
 
     // vraag bij de server de nieuwe instellingen op:
     String serverAntwoord = wifi.stuurVerzoek("/api/get/instellingen", "");
-    
+
     // om een beeld te geven van het antwoord: print in seriële monitor:
     Serial.println(serverAntwoord);
 
@@ -76,6 +80,8 @@ void loop() {
       Serial.println("FOUT: serverAntwoord kon niet worden verwerkt");
     }
 
+    */
+
     // servercommunicatie is afgerond
     // bepaal nu op welke tijd de knikkerbaan
     // opnieuw contact moet zoeken
@@ -84,23 +90,9 @@ void loop() {
     // en zet nu het poortje weer open:
     poortBoven.open();
   }
-  
-  // Kijk of poortMolen iets moet doen
-  if (millis() > poortMolenTimer) {
-    if (poortMolen.getOpen() == true) {
-      // poortje was blijkbaar open, nu sluiten:
-      poortMolen.sluit();
-      // zet de timer naar nieuw punt in de toekomst
-      poortMolenTimer = millis() + poortMolenTijdDicht;
-    }
-    else {
-      // poortje was blijkbaar dicht, dus nu openen:
-      poortMolen.open();
-      // zet de timer naar nieuw punt in de toekomst
-      poortMolenTimer = millis() + poortMolenTijdOpen;
-    }
-  }
-  
-  
-}
 
+
+  
+
+
+}
