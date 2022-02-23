@@ -4,7 +4,7 @@
 ---
 
 ## Inleiding
-Lorem ipsum...
+Voor onze eindopdracht hebben wij geprobeerd een knikkerbaan te maken. Deze bevat poortjes en een rad aangestuurd door een Arduino. Ook heeft de knikkerbaan een bijbehorende widget, waarin wordt aangegeven hoe veel knikkers er langs een bepaald punt zijn gegaan. In dit verslag staan welke features de knikkerbaan heeft, een evalutuatie van de planning, een technische verantwoording en een reflectie.
 
 
 
@@ -25,15 +25,16 @@ Deze feature heeft geen code. het is een trapoline gemaakt van houd en elastiekj
 
 
 ### feature 5: Water/reuzenrad
-De knikker wordt tegengehouden door een servo, om de .... seconden opend en sluit de servo, hierdoor gaat elke knikker alleen  het reuzenrad in. Het reuzenrad draaid met de 360 sevro en blijft de hele tijd doordraaien. de nikkers vallen na een tijd uit het reuzentrad en word dan weer opgevangen door een baan. (als we tijd hebben, begint het reuzenrad pas met draaien en gaat de servo pas open als er door een teller een knikker wordt gezien)
+De knikker wordt tegengehouden door een servo, om de .... seconden opend en sluit de servo, hierdoor gaat elke knikker alleen het reuzenrad in. Het reuzenrad draait met de 360 sevro en blijft de hele tijd doordraaien. de knikkers vallen na een tijd uit het reuzentrad en word dan weer opgevangen door een baan. (als we tijd hebben, begint het reuzenrad pas met draaien en gaat de servo pas open als er door een teller een knikker wordt gezien)
 
 
 ### feature 6: Flipperkast 
+De knikker die aankomt, wordt tegengehouden door twee servo's die als flippers dienen. Deze gaan tegelijk open, waarna de knikkers vallen op een punt. De knikker kan dan naar links rollen of naar rechts. Daarna wordt er bij elke kant geteld hoeveel knikkers er langs zijn gekomen.
 
 
 ## Evaluaties van scrumplanningen:
 
-### week 43 Deze week issues toevoegen voor elke isseu en bugs die we al weten toegvoegen. 
+### week 43 Deze week issues toevoegen voor elke issue en bugs die we al weten. 
 
 ### week 44 Deze week kunnen wij niet veel doen, omdat het volgende week toetsweek is. We willen de taken deels verdelen en bezig zijn met het verslag
 
@@ -59,12 +60,22 @@ De knikker wordt tegengehouden door een servo, om de .... seconden opend en slui
 
 ### week 3
 
+### week 4
+
+### week 5
+
+### week 6
+
+### week 7
+
+### week 8
+
 
 
 ## Technische verantwoording
 Geef hier bijvoorbeeld de volgende informatie, maar voel je vrij er informatie aan toe te voegen.
 
-De Arduino werkt op de volgende manier:
+De Arduino werkt op de volgende manier: De Arduino stuurt alle servo's aan. De bovenste servo dient als een poort, zodat de knikkers 
 
 De knikkerbaan en de widget wisselen de volgende data met elkaar uit:
 
