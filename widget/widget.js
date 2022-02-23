@@ -118,5 +118,23 @@ function vraagSensorData() {
 // stuurt een http-verzoek aan de server met de
 // nieuwe instellingen
 function stuurNieuweInstellingen() {
+  var request = new XMLHttpRequest();
+
+  // maak een http-verzoek
+  request.open('GET', '/api/set/instellingen?wachttijd=' + wachtijdInput.value(), true)
+
+  // wat uitvoeren als het antwoord teruggegeven wordt?
+  request.onload = function () {
+    if (request.status == 200) {
+      console.log("server accepteerde instellingen");
+    }
+    else {
+      console.log("server reageert niet zoals gehoopt");
+      console.log(request.response);
+    }
+  }
+
+  // verstuur het request
+  request.send()
   // moet nog worden gemaakt
 }
