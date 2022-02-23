@@ -90,14 +90,18 @@ De knikkerbaan en de widget wisselen de volgende data met elkaar uit:
 
 We hebben dat op deze manier genormaliseerd in een database opgenomen (neem een strokendiagram op). De reden dat we voor ... kiezen is...
 
-Uitdagingen die we tegenkwamen:
+Uitdagingen die we tegenkwamen: Code maken.
 
 
 ## Reflectie op opdracht
-#### --leerling1--
+#### --Hana--
 *(50 - 100 woorden. Geef o.a. wat je tijdens deze opdracht beter onder de knie hebt gekregen en welk leerpunt je voor jezelf meeneemt)*
 
-#### --leerling2--
+#### --Alessandra--
+
+#### --Lisanne--
+
+#### --Jamie--
 
 
 
