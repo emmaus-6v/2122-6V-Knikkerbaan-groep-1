@@ -34,15 +34,20 @@ De knikker die aankomt, wordt tegengehouden door twee servo's die als flippers d
 
 ## Evaluaties van scrumplanningen:
 
-### week 43 Deze week issues toevoegen voor elke issue en bugs die we al weten. 
+### week 43 
+Deze week issues toevoegen voor elke issue en bugs die we al weten. 
 
-### week 44 Deze week kunnen wij niet veel doen, omdat het volgende week toetsweek is. We willen de taken deels verdelen en bezig zijn met het verslag
+### week 44 
+Deze week kunnen wij niet veel doen, omdat het volgende week toetsweek is. We willen de taken deels verdelen en bezig zijn met het verslag
 
-### week 45 Deze week is het toetsweek, iedereen heeft het ruk
+### week 45 
+*toetsweek*
 
-### week 46 -
+### week 46 
+-
 
-### week 47 Deze week gaan we beginnen met het schrijven van de code voor de teller en het poortje.
+### week 47 
+Deze week gaan we beginnen met het schrijven van de code voor de teller en het poortje.
 
 ### week 48 
 
@@ -53,14 +58,18 @@ De knikker die aankomt, wordt tegengehouden door twee servo's die als flippers d
 ### week 51
 
 ### week 52 
+*vakantie*
 
 ### week 1
+*vakantie*
 
 ### week 2 
 
 ### week 3
+*toetsweek*
 
 ### week 4
+*toetsweek*
 
 ### week 5
 
