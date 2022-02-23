@@ -18,7 +18,7 @@ De knikkerbaan kan knikkers bovenin correct opvangen. De binnenkomende knikkers 
 De knikkerbaan zendt de hoeveelheid getelde knikkers naar een server die de gegevens opslaat in een database. Deze server kan per 'run' (d.w.z. een nieuwe keer aangaan) gegevens bijhouden.
 
 ### feature 3: Widget wisselt info uit met knikkerbaan
-In de browser kan met een URL een widget worden geladen. Deze geeft de knikkerbaan schematisch weer in een frame van 800x400px. De getelde knikkers en duur dat de poort openstaat worden hierin getoond. De duur dat de poort openstaat kan hierin worden veranderd. De knikkerbaan kan deze wachttijd van de server ontvangen en zijn werking erop aanpassen.
+In de browser kan met een URL een widget worden geladen. Deze geeft de knikkerbaan schematisch weer in een frame van 600x300px. De getelde knikkers en duur dat de poort openstaat worden hierin getoond. De duur dat de poort openstaat kan hierin worden veranderd. De knikkerbaan kan deze wachttijd van de server ontvangen en zijn werking erop aanpassen.
 
 ### feature 4: Trampoline
 Deze feature heeft geen code. het is een trapoline gemaakt van houd en elastiekjes die strakgespannen staan. Hierop kan de knikker stuiteren enwordt opgevangen door een andere baan/
