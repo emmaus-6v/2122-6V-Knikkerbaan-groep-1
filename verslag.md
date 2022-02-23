@@ -44,7 +44,7 @@ Deze week kunnen wij niet veel doen, omdat het volgende week toetsweek is. We wi
 *toetsweek*
 
 ### week 46 
--
+_
 
 ### week 47 
 Deze week gaan we beginnen met het schrijven van de code voor de teller en het poortje.
