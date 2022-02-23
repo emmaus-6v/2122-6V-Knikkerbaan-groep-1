@@ -1,4 +1,3 @@
-
 // globale variabelen
 var aantalKnikkersBoven = 0;    // aantal knikkers dat bovenin is binnengekomen
 var wachttijd = 15;             // wachttijd voor het poortje in seconden
@@ -33,7 +32,7 @@ function setup() {
 function draw() {
   // schrijf hieronder de code van je widget
   // hieronder wordt schematisch een knikkerbaan getekend
-  
+
   // achtergrond: houtkleur, kies gerust iets anders
   background(175, 144, 105);
 
@@ -60,10 +59,8 @@ function draw() {
   line(50,295,30,275);
   line(50,335,29,360);
   line(92,295,110,275);
-  
   teller.show();
 }
-
 
 
 // stuurt een verzoek aan de server dat alle
