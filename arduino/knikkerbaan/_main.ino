@@ -4,7 +4,8 @@ KnikkerPoort poortBoven = KnikkerPoort();
 KnikkerPoort poortMolen = KnikkerPoort();
 
 WiFiCommunicator wifi = WiFiCommunicator(WIFI_NETWERK, WIFI_WACHTWOORD, SERVER_DOMEINNAAM);
-Teller tellerA = Teller(TELLER_A_PIN);
+Teller tellerA = Teller(TELLER_A_PIN); 
+// hier moeten de andere twee tellers en de servos komen
 
 int serverContactInterval = 15;                // 15 seconden
 int poortMolenTijdOpen = 400;
