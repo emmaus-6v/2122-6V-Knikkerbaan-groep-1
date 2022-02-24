@@ -16,13 +16,6 @@ function setup() {
   // Maak het canvas van je widget
   createCanvas(300, 600);
 
-  //var plaats = x;
-  //var hoogte = y;
-
-  //var teller = new Teller(plaats, hoogte);
-  
- // tellers.push(teller);
-
  teller1 = new Teller(145,50);
  teller2 = new Teller(32,485);
  teller3 = new Teller(262,485);
@@ -51,11 +44,9 @@ function draw() {
   line(50, 20, 135, 60);
   line(250, 20, 165, 60);
   strokeWeight(4);
-  line(80, 80, 200, 100);
-  line(240, 85, 240, 125);
-  line(240,125,100,150);
+  line(80, 100, 200, 120);
   stroke('brown');
-  line(35,140,90,185);
+  line(285,120,245,140);
   stroke('black');
   line(240,175,110,235);
   circle(70,300,60);
@@ -88,18 +79,12 @@ function draw() {
   line(110,235,110,205);
   line(170,445,155,445);
   line(130,445,145,445);
-  //stroke('blue');
-  //circle(35,485,3);
-  //circle(265,485,3);   
+ 
 
   teller1.show();
   teller2.show();
   teller3.show();
 
- // for(var i = 0; i < tellers.length; i++){
-   // tellers[i].show();
-   // tellers[i].update();
-  //}
 }
 
 
@@ -120,8 +105,8 @@ function vraagSensorData1() {
     if (request.status == 200) {
       console.log("Dit geeft de server terug:" + data);
       teller1.aantal = data.aantalKnikkers1;
-      //teller2.aantal = data.aantalKnikkers2;
-      //teller3.aantal = data.aantalKnikkers3;
+      teller2.aantal = data.aantalKnikkers2;
+      teller3.aantal = data.aantalKnikkers3;
     }
     else {
       console.log("server reageert niet zoals gehoopt");
