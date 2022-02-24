@@ -111,6 +111,7 @@ Tijdens deze opdracht heb ik heel erg goed geleerd om goed samen te werken en pr
 *(50 - 100 woorden. Geef o.a. wat je tijdens deze opdracht beter onder de knie hebt gekregen en welk leerpunt je voor jezelf meeneemt)*
 
 #### --Alessandra--
+Met het maken van de knikkerbaan heb ik zeker veel dingen geleerd. Zo kwamen we nogal wat tegenslagen tegen tijdens het maken van de plank en met het werken aan de arduino. Al deze problemen hebben we met elkaar kunnen oplossen. Ik heb dus geleerd om goed samen te werken en om gewoon door te blijven gaan ookal gaat er wel is iets mis.
 
 #### --Lisanne--
 
