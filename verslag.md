@@ -123,7 +123,7 @@ Met het maken van de knikkerbaan heb ik zeker veel dingen geleerd. Zo kwamen we 
 #### --Lisanne--
 
 #### --Jamie--
-De eindopdracht heeft mij geleerd, dat er bij het maken van een knikkerbaan veel onderdelen zijn die er gemaakt moeten worden. Het maken van de widget.
+De eindopdracht heeft mij geleerd, dat er bij het maken van een knikkerbaan veel onderdelen zijn die er gemaakt moeten worden. Het maken van de widget was een lang proces, omdat elke lijn een twee aparte x- en y-waardes heeft. Verder begrijp ik javascript en arduino code beter dan eerst.
 
 
 
