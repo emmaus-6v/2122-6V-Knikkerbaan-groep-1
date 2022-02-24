@@ -1,7 +1,8 @@
-#include <Servo.h>
+#include "Servo.h"
 
-
-class molen {
+/*
+class MolenPoort {
+  
 Servo servoMolen;
 boolean poortIsOpen = false;
 unsigned long molenTimer = 1000;
@@ -25,3 +26,4 @@ void loop(){
     }
   }
 };
+*/

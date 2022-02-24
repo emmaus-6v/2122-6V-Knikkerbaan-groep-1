@@ -1,4 +1,5 @@
 class Teller {
+  
   private:
     int pin;
     bool wasOnderbroken;

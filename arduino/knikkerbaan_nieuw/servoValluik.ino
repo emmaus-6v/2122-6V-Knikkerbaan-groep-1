@@ -1,6 +1,7 @@
   #include "Servo.h"
-
-class valluik {
+/*
+class Valluik {
+  
 Servo servoPoort1;
 Servo servoPoort2;
 boolean poortIsOpen = false;
@@ -32,3 +33,5 @@ void loop() {
   }
 
 }
+
+*/
