@@ -101,7 +101,13 @@ De knikkerbaan en de widget wisselen de volgende data met elkaar uit: Het aantal
 
 We hebben dat op deze manier genormaliseerd in een database opgenomen (neem een strokendiagram op). De reden dat we voor ... kiezen is...
 
-Uitdagingen die we tegenkwamen: Code maken.
+Uitdagingen die we tegenkwamen: 
+- arduino, we hebben best wel lang niet met de arduino gewerkt. We moesten dus even alles kennis weer opdoen voordat we soepel aan de gang konden. 
+- bestaande code begrijpen, omdat we de code natuurlijk niet zelf hadden gemaakt, bergrepen we niet gelijk waar alle code voor stond. 
+- bestand openen op sommige laptops, soms moesten we een beetje uitvogelen hoe we het de eerste keer moesten openen.
+- van delay naar mili gaan.
+- klassen aanroepen.
+- werken met sevro en sensor. De code die we hiervoor moesten gebruiken hebben we niet heel vaak gebruikt. Dus het was een beetje wennen om alles te begrijpen en we kregen veel foutmeldingen die moeilijk waren op te lossen.
 
 
 ## Reflectie op opdracht
