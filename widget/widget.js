@@ -4,9 +4,7 @@ var wachttijd = 15;             // wachttijd voor het poortje in seconden
 const UPDATE_INTERVAL = 5000;   // tijd in milliseconden tussen het door widget opvragen van gegevens
 var button;
 var wachtijdInput;
-var tellers = [];
-var x = [150];
-var y = [50];
+
 
 
 /**
@@ -18,13 +16,20 @@ function setup() {
   // Maak het canvas van je widget
   createCanvas(300, 600);
 
-  var teller = new Teller(x, y);
+  //var plaats = x;
+  //var hoogte = y;
+
+  //var teller = new Teller(plaats, hoogte);
   
-  tellers.push(teller);
+ // tellers.push(teller);
+
+ teller1 = new Teller(145,50);
+ teller2 = new Teller(32,485);
+ teller3 = new Teller(262,485);
 
 
   // om de ... milliseconden wordt 'vraagSensorData' uitgevoerd
-  setInterval(vraagSensorData, UPDATE_INTERVAL);
+  setInterval(vraagSensorData1, UPDATE_INTERVAL);
 }
 
 
@@ -83,30 +88,40 @@ function draw() {
   line(110,235,110,205);
   line(170,445,155,445);
   line(130,445,145,445);
-  stroke('blue');
-  circle(35,485,3);
-  circle(265,485,3);   
+  //stroke('blue');
+  //circle(35,485,3);
+  //circle(265,485,3);   
 
-  
-  tellers.show();
+  teller1.show();
+  teller2.show();
+  teller3.show();
+
+ // for(var i = 0; i < tellers.length; i++){
+   // tellers[i].show();
+   // tellers[i].update();
+  //}
 }
 
 
 // stuurt een verzoek aan de server dat alle
 // sensordata opvraagt
-function vraagSensorData() {
+function vraagSensorData1() {
   var request = new XMLHttpRequest();
 
   // maak een http-verzoek
-  request.open('GET', '/api/get/sensordata', true)
+  request.open('GET', '/api/get/sensorData1', true);
+  request.open('GET', '/api/get/sensorData2', true);
+  request.open('GET', '/api/get/sensorData3', true);
 
   // wat uitvoeren als het antwoord teruggegeven wordt?
-  request.onload = function () {
+  request.onload = function() {
     var data = JSON.parse(request.response);
 
     if (request.status == 200) {
       console.log("Dit geeft de server terug:" + data);
-      teller.aantal = data.aantalKnikkers;
+      teller1.aantal = data.aantalKnikkers1;
+      //teller2.aantal = data.aantalKnikkers2;
+      //teller3.aantal = data.aantalKnikkers3;
     }
     else {
       console.log("server reageert niet zoals gehoopt");
@@ -115,7 +130,7 @@ function vraagSensorData() {
   }
 
   // verstuur het request
-  request.send()
+  request.send();
 }
 
 
@@ -128,7 +143,7 @@ function stuurNieuweInstellingen() {
   request.open('GET', '/api/set/instellingen?wachttijd=' + wachtijdInput.value(), true)
 
   // wat uitvoeren als het antwoord teruggegeven wordt?
-  request.onload = function () {
+  request.onload = function() {
     if (request.status == 200) {
       console.log("server accepteerde instellingen");
     }
