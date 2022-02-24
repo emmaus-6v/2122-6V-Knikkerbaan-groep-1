@@ -78,15 +78,16 @@ Deze week gaan we beginnen met het schrijven van de code voor de teller en het p
 ### week 7
 
 ### week 8
+Demo en inleveren
 
 
 
 ## Technische verantwoording
-Geef hier bijvoorbeeld de volgende informatie, maar voel je vrij er informatie aan toe te voegen.
 
-De Arduino werkt op de volgende manier: De Arduino stuurt alle servo's aan. De bovenste servo dient als een poort, zodat de knikkers 
+De Arduino werkt op de volgende manier: 
+De Arduino stuurt alle servo's aan. De bovenste servo dient als een poort, zodat de knikkers tegen gehouden worden als er communicatie plaatsvindt tussen de server en de arduino. De tweede servo dient als ook als een poortje. Deze houdt de knikkers tegen en laat ze een voor een langs, zodat het rad niet verstopt raakt. De derde servo zit in het rad zelf. Deze draait continue, om de balletjes goed op te kunnen vangen. De laatste twee servo's zijn de flippers. De knikkers worden tegengehouden, waarna ze recht naar beneden vallen op een punt. Hier gaan de knikkers links of rechts. Daarbij wordt er geteld hoeveel er langs elke kant komen.
 
-De knikkerbaan en de widget wisselen de volgende data met elkaar uit:
+De knikkerbaan en de widget wisselen de volgende data met elkaar uit: Het aantal knikkers dat langs elke sensor zijn geweest.
 
 We hebben dat op deze manier genormaliseerd in een database opgenomen (neem een strokendiagram op). De reden dat we voor ... kiezen is...
 
