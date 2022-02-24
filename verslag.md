@@ -106,9 +106,10 @@ Uitdagingen die we tegenkwamen: Code maken.
 
 ## Reflectie op opdracht
 *(50 - 100 woorden. Geef o.a. wat je tijdens deze opdracht beter onder de knie hebt gekregen en welk leerpunt je voor jezelf meeneemt)*
+
 #### --Hana--
 Tijdens deze opdracht heb ik heel erg goed geleerd om goed samen te werken en problemen op een effectieve manier op te lossen. Over het algemeen snap ik beter hoe een arduino en servo's werken en hoe ik daar in  de toekomst beter mee kan werken. Ook met de plank heb ik geleerd hoe ik een onverwachte probleem op kan lossen. 
-*(50 - 100 woorden. Geef o.a. wat je tijdens deze opdracht beter onder de knie hebt gekregen en welk leerpunt je voor jezelf meeneemt)*
+
 
 #### --Alessandra--
 Met het maken van de knikkerbaan heb ik zeker veel dingen geleerd. Zo kwamen we nogal wat tegenslagen tegen tijdens het maken van de plank en met het werken aan de arduino. Al deze problemen hebben we met elkaar kunnen oplossen. Ik heb dus geleerd om goed samen te werken en om gewoon door te blijven gaan ookal gaat er wel is iets mis.
@@ -116,7 +117,7 @@ Met het maken van de knikkerbaan heb ik zeker veel dingen geleerd. Zo kwamen we 
 #### --Lisanne--
 
 #### --Jamie--
-
+De eindopdracht heeft mij geleerd, dat er bij het maken van een knikkerbaan veel onderdelen zijn die er gemaakt moeten worden. Het maken van de widget.
 
 
 
