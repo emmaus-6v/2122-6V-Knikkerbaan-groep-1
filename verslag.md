@@ -38,7 +38,7 @@ De knikker die aankomt, wordt tegengehouden door twee servo's die als flippers d
 Deze week issues toevoegen voor elke issue en bugs die we al weten. 
 
 ### week 44 
-Deze week kunnen wij niet veel doen, omdat het volgende week toetsweek is. We willen de taken deels verdelen en bezig zijn met het verslag
+Deze week kunnen wij niet veel doen, omdat het volgende week toetsweek is. We willen de taken deels verdelen en bezig zijn met het verslag.
 
 ### week 45 
 *toetsweek*
@@ -47,15 +47,18 @@ Deze week kunnen wij niet veel doen, omdat het volgende week toetsweek is. We wi
 _
 
 ### week 47 
-Deze week gaan we beginnen met het schrijven van de code voor de teller en het poortje.
+Deze week gaan we beginnen met het schrijven van de code voor de teller en het poortje. Ook hebben we de volledige schets van de plank bepalen.
 
 ### week 48 
+Begonnen met het nadenken met welke materialen we de verschillende elementen van de plank gaan maken.
+Begonnen met de code van de sensor en de widget.
 
 ### week 49 
 
 ### week 50
 
 ### week 51
+Deze week konden we niet naar school gaan, we hebben het verslag een beetje bijgewerkt en even gezamelijk een groepsgesprek gehad om onze voortgang te evalueren. Ook hebben we afgesproken hoe we verder gaan na de vakantie.
 
 ### week 52 
 *vakantie*
@@ -64,20 +67,27 @@ Deze week gaan we beginnen met het schrijven van de code voor de teller en het p
 *vakantie*
 
 ### week 2 
+De widget afgemaakt. 
 
 ### week 3
 *toetsweek*
+Geen tijd gehad om aan de opdracht te werken.
 
 ### week 4
 *toetsweek*
+Geen tijd gehad om aan de opdracht te werken.
 
 ### week 5
+De plank geverfd en de lay-out getekent op maat.
 
 ### week 6
+De witte 'weg' voor de bal op maat gesneden.
 
 ### week 7
+De plank in elkaar gezet, de weg geplakt op de plank. Het rad gemaakt van lego. Ook hebben we op inernet gezocht hoeveel kg de servo kan dragen, dat is rond de 1/2 kg. De servo kan de lego dus dragen. 
 
 ### week 8
+Alle servo's in de plank zetten en alle sensoren in de planken zetten. 
 Demo en inleveren
 
 
@@ -95,7 +105,9 @@ Uitdagingen die we tegenkwamen: Code maken.
 
 
 ## Reflectie op opdracht
+*(50 - 100 woorden. Geef o.a. wat je tijdens deze opdracht beter onder de knie hebt gekregen en welk leerpunt je voor jezelf meeneemt)*
 #### --Hana--
+Tijdens deze opdracht heb ik heel erg goed geleerd om goed samen te werken en problemen op een effectieve manier op te lossen. Over het algemeen snap ik beter hoe een arduino en servo's werken en hoe ik daar in  de toekomst beter mee kan werken. Ook met de plank heb ik geleerd hoe ik een onverwachte probleem op kan lossen. 
 *(50 - 100 woorden. Geef o.a. wat je tijdens deze opdracht beter onder de knie hebt gekregen en welk leerpunt je voor jezelf meeneemt)*
 
 #### --Alessandra--
