@@ -128,3 +128,5 @@ De eindopdracht heeft mij geleerd, dat er bij het maken van een knikkerbaan veel
 
 
 ## Slot
+
+Over het algemeen zijn we zeer tevreden met de knikkerbaan. We vonden de samenwerking erg goed gaan en daar zijn we ook erg blij mee. Het hele proces vonden we erg interessant, al vinden we zelf ook wel dat we er eerder aan moesten beginnen. Toch zijn we blij met onze knikkerbaan, en zijn we blij met de informatie die we hebben geleerd en de skills die we hebben verbeterd
