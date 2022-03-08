@@ -51,7 +51,7 @@ Deze week gaan we beginnen met het schrijven van de code voor de teller en het p
 
 ### week 48 
 Begonnen met het nadenken met welke materialen we de verschillende elementen van de plank gaan maken.
-Begonnen met de code van de sensor en de widget.
+Begonnen met de code van de sensor en de widget. Code van 360 graden sensor gemaakt.
 
 ### week 49 
 
@@ -67,7 +67,7 @@ Deze week konden we niet naar school gaan, we hebben het verslag een beetje bijg
 *vakantie*
 
 ### week 2 
-De widget afgemaakt. 
+De widget afgemaakt. Servo 1 aangesloten aan het arduino bord.
 
 ### week 3
 *toetsweek*
@@ -78,16 +78,20 @@ Geen tijd gehad om aan de opdracht te werken.
 Geen tijd gehad om aan de opdracht te werken.
 
 ### week 5
-De plank geverfd en de lay-out getekent op maat.
+De plank geverfd en de lay-out getekent op maat. 2 andere servos aangesloten aan het adruino bord.
 
 ### week 6
+Code van de eerste servo gemaakt.
 De witte 'weg' voor de bal op maat gesneden.
+Code van 360 graden sensor opnieuw gemaakt. 
 
 ### week 7
-De plank in elkaar gezet, de weg geplakt op de plank. Het rad gemaakt van lego. Ook hebben we op inernet gezocht hoeveel kg de servo kan dragen, dat is rond de 1/2 kg. De servo kan de lego dus dragen. 
+De plank in elkaar gezet, de weg geplakt op de plank. Het rad gemaakt van lego. Ook hebben we op inernet gezocht hoeveel kg de servo kan dragen, dat is rond de 1/2 kg. De servo kan de lego dus dragen. Code van de andere sensors gemaakt. Problemen opgelost in de code.
 
 ### week 8
 Alle servo's in de plank zetten en alle sensoren in de planken zetten. 
+problemen opgelost in de code(geprobeert).
+Sensors aangsloten en gecodeert.
 Demo en inleveren
 
 
@@ -121,6 +125,7 @@ Tijdens deze opdracht heb ik heel erg goed geleerd om goed samen te werken en pr
 Met het maken van de knikkerbaan heb ik zeker veel dingen geleerd. Zo kwamen we nogal wat tegenslagen tegen tijdens het maken van de plank en met het werken aan de arduino. Al deze problemen hebben we met elkaar kunnen oplossen. Ik heb dus geleerd om goed samen te werken en om gewoon door te blijven gaan ookal gaat er wel is iets mis.
 
 #### --Lisanne--
+Ik durf niet te zeggen dat ik erg veel van deze opdracht geleerd heb, omdat ik zelf niet helemaal begrijp wat ik gedaan heb. Het was allemaal extreem vaag. Een grote rede daarvoor was, omdat ik iets te laat begonnen was en alles snel moest maken. Ik begrijp van de dingen die ik heb gedaan wel gedeeltelijk waarom, maar dat was vooral echt op dat moment. Nu een week na de opdracht begrijp ik bijna niks meer van de code die ik zelf geschreven heb, vandaar dat ik dus niet het idee heb dat ik veel van deze opdracht heb geleerd. Het enige wat ik geleerd heb is dat ik een opdracht niet moet onderschatten en beter te plannen.
 
 #### --Jamie--
 De eindopdracht heeft mij geleerd, dat er bij het maken van een knikkerbaan veel onderdelen zijn die er gemaakt moeten worden. Het maken van de widget was een lang proces, omdat elke lijn een twee aparte x- en y-waardes heeft. Verder begrijp ik javascript en arduino code beter dan eerst.
